@@ -10,7 +10,7 @@ const SectionWrapper = ({ children, header, title, id}) => {
         <div className="absolute inset-0 bg-[url('https://via.placeholder.com/100')] opacity-5 pointer-events-none"></div>
         <p className="uppercase font-bold tracking-widest text-red-500">{header}</p>
         <h2 className="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tight">
-          {title[0]} <span className="uppercase text-blue-500">{title[1]}</span>
+          {title[0]} <span className="uppercase text-blue-500">{title[1]} </span>
           {title[2]}
         </h2>
       </div>
